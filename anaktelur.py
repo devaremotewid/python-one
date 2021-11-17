@@ -6,15 +6,16 @@ inputanak = str (input("Anak ke Toko : Apakah ada susu? (ada/tidak) : "))
 if inputanak == "ada":
     hasila = print ("*Anak mengecek Harganya Cukup")
 
-elif inputanak == "tidak":
-    hasilt = print("*Anak Tidak jadi membeli susu")
+else :
+    print ("*Anak pulang ke rumah")
+    print("*Menyerahkan hasil belanjanya kepada ibu")
 
+hasilbarua = hasila
+hasilbarua = str (input("Anak ke Toko : Apakah ada telur? (ada/tidak)  :  "))
+if hasilbarua == "ada":
+    hasilbaruaa = print ("*Anak membeli susu dan telur")
 
-hasilbaru = str (input("Anak ke Toko : Apakah ada telur? (ada/tidak)  :  "))
-if hasilbaru == "ada":
-    hasilbarua = print ("*Anak membeli susu dan telur")
-
-elif hasilbaru == "tidak":
+elif hasilbarua == "tidak":
     hasiltdk = print("*Anak hanya membeli susu")
 
 print ("*Anak pulang ke rumah")
